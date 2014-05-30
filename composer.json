@@ -1,0 +1,20 @@
+{
+    "name": "jdroll/roll-dicer",
+    "description": "Php dice launcher for roleplaying game (with advanced syntax)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Armaklan",
+            "email": "lionel.zuber@armaklan.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+      "psr-0": {
+        "jdRoll": "src/"
+      }
+    }
+}
